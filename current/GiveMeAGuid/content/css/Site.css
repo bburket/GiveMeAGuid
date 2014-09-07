@@ -1,0 +1,54 @@
+body
+{
+    color: #232323;
+    background-color: #fffacd;
+}
+
+
+body, input[type="button"] {
+    font-family: Segoe UI, "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+#guidText
+{
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#mainDiv
+{
+    padding-top: 150px;
+    text-align: center;
+}
+
+#guidButton
+{
+    font-size: 1.25em;
+}
+
+#fblcont{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#twrap
+{
+    vertical-align: middle;
+}
+
+#btnCnt
+{
+    padding-top: 25px;
+}
