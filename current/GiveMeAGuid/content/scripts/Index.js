@@ -1,16 +1,8 @@
-﻿function GetData() {
-    $("#guidButton").attr("disabled", "disabled");
-    $.getJSON('Default/Data?cb=' + new Date().getTime(), function (data) {
-        $("#guidText").text(data.Guid);
-        $("#guidButton").removeAttr("disabled");
-        _gaq.push(['_trackEvent', 'Buttons', 'GenGuid', 'Guid Genned']);
-    });
-}
-
-(function() {
+﻿(function() {
     $('#guidButton').on('click', function() {
         var id = uuid.v4();
         $('#guidText').text(id);
+        _gaq.push(['_trackEvent', 'Buttons', 'GenGuid', 'Guid Genned']);
     });
 
     $('#guidText').text(uuid.v4());

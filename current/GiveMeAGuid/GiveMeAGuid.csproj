@@ -82,6 +82,9 @@
   <ItemGroup>
     <Content Include="content\css\Site.css" />
     <Content Include="content\scripts\Index.js" />
+    <Content Include="content\scripts\Index.min.js">
+      <DependentUpon>Index.js</DependentUpon>
+    </Content>
     <Content Include="content\scripts\modernizr-1.7.js" />
     <Content Include="content\scripts\modernizr-1.7.min.js" />
     <Content Include="content\scripts\uuid.js" />
@@ -134,6 +137,10 @@
     <Content Include="content\scripts\uuid.min.js.map">
       <DependentUpon>uuid.min.js</DependentUpon>
     </Content>
+    <Content Include="content\scripts\Index.min.js.map">
+      <DependentUpon>Index.min.js</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\GiveMeAGuidFtp.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

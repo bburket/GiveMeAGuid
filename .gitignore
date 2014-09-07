@@ -39,3 +39,5 @@ Icon
 current/GiveMeAGuid/bin/
 current/GiveMeAGuid/obj/
 current/GiveMeAGuid/GiveMeAGuid.csproj.user
+current/GiveMeAGuid/Properties/PublishProfiles/GiveMeAGuidFtp.pubxml
+current/GiveMeAGuid/Properties/PublishProfiles/GiveMeAGuidFtp.pubxml.user
